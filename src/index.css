@@ -110,7 +110,32 @@ height: 100%;
   
 }
 .resume-right-col{
-  background: #001a33;
+  background: #09203f;
   color: white;
   padding: 2em;
+  
+}
+.about-grid{
+  border-bottom: 5px dotted black;
+  width: 50%;
+  
+}
+.about-body{
+  margin: auto;
+     background:#063968;
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     justify-content: center;
+     padding-top: 2em;
+}
+.about-grid h2{
+  color: white;
+  font-family: "Anton",sans-serif;
+  text-align: center;
+}
+.about-grid p{
+
+  color: white;
+  font-family: "Oxygen",sans-serif;
 }

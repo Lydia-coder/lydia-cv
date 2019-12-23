@@ -12,7 +12,7 @@ class Resume extends Component {
                    <Cell col={4}> 
                    <div style={{textAlign:'center'}}>
                        <img
-                       src='https://cdn.xl.thumbs.canstockphoto.ca/female-avatar-profile-icon-round-african-american-woman-face-flat-vector-illustration-eps-vector_csp51913548.jpg'
+                       src='https://scontent-ams4-1.xx.fbcdn.net/v/t31.0-8/13346364_10156959143085257_2289038925996648186_o.jpg?_nc_cat=101&_nc_ohc=lcYGCd2EbsUAQkmtHYw0Db6ZO5YhX5J8TAoZjnsxK0s36RTMZGeq1gVgA&_nc_ht=scontent-ams4-1.xx&oh=a9b819d630921f9e229a10d2af33d1d1&oe=5E69FB88'
                        alt='avatar'
                        style={{height: '200px'}}
                        />
@@ -21,7 +21,7 @@ class Resume extends Component {
                    <h2 style={{paddingTop: '2em'}} >Lydia Michael Smeets</h2>
                    <h4 style={{color: 'grey'}}>Full-Stack Web Developer</h4>
                    <hr style={{borderTop:'3px solid #001a33', width: '50%'}}/>
-                   <p> Some more info about me text kind of thing after i finish this</p>
+                   <p> Independent and motivated developer with background in Sales and Teaching, looking to work in challenging environment where I can grow professionally </p>
                    <hr style={{borderTop:'3px solid #001a33', width: '50%'}}/>
                    <h5>Adress</h5>
                    <p>Remmersteinpad 25, 1333 XN Almere</p>
@@ -35,61 +35,76 @@ class Resume extends Component {
                    <Cell className="resume-right-col" col={8}>
                        <h2>Education</h2>
                        <Education 
-                       startYear={2011}
-                       endYear={2015}
-                       schoolName="Fontys Hogeschool"
-                       schoolDescription="Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van letters"/>
+                       startYear={2019}
+                       endYear={2019}
+                       title="Full-Stack Web Developer Trainee"
+                       schoolName="Codaisseur Academy"
+                       schoolDescription="The technologies I aquired during my education at Codaisseur Academy were: JavaScript (ES6), React.js & Redux, React – Bootstrap, REST API, PostgreSQL, Express.js, Sequelize.js, Docker, HTML & CSS."/>
 
                         <Education 
                        startYear={2011}
                        endYear={2015}
+                       title=" English Teacher Trainee"
                        schoolName="Fontys Hogeschool"
-                       schoolDescription="Het is al geruime tijd een bekend gegeven dat een lezer, tijdens het bekijken van de layout van een pagina, afgeleid wordt door de tekstuele inhoud. Het belangrijke punt van het gebruik van Lorem Ipsum is dat het uit een min of meer normale verdeling van letters"/>
+                      
+                       schoolDescription="Preparing lesson plans for classes, this helped me become very organized and taught me  how to achieve certain goals that I set for myself.
+                       As i teacher I had to plan interesting lessons to really engage the students, this helped to increase my communication skills, such as speaking in public, engaging my audience, clearly explaining my material and quick thinking when answering questions of students.
+                       "/>
 
                         <hr style={{borderTop: '3px solid white'}}/>
                         <h2>Experience</h2>
-                        <Experience
-                        startYear={2011}
-                        endYear={2015}
-                        jobName="Mazsol Group"
-                        jobDescription="Het is al geru"/>
+                       
 
                         <Experience
-                        startYear={2011}
-                        endYear={2015}
-                        jobName="Mazsol Group"
-                        jobDescription="Het is al geru"/>
+                         startYear={2019}
+                         endYear={2019}
+                         title="Full-Stack Web Developer Trainee"
+                         jobName="Codaisseur Acamemy"
+                         jobDescription="11-week intensive full – stack web development projects. workflow included: code reviews, quality assessment and teamwork using SCRUM methodology, Git and GitHub.
+                         
 
-                         <Experience
-                        startYear={2011}
-                        endYear={2015}
+                         "/>
+                          <Experience
+                        startYear={2016}
+                        endYear={2019}
+                        title="Brand Represenative"
                         jobName="Mazsol Group"
-                        jobDescription="Het is al geru"/>
+                        jobDescription="Attending beauty industry events where I would network for potential clients and business partners.
+                        For creating a specific brand image through social media and web design, I used technologies such as: HTML & CSS.
+                        I also was responsible for generating sales opportunities and promoting products and services to potential customers. 
+                        "/>
+
+                         
 
 <hr style={{borderTop: '3px solid white'}}/>
   <h2>Skills</h2>
 <Skills
-skill="JavaScript(ES6)"
-progress={80}/>
+skill="HTML/CSS                                    "
+progress={60}/>
+
 <Skills
-skill="JavaScript(ES6)"
+skill="React – Bootstrap"
+progress={60}/>
+<Skills
+skill="React & Redux"
 progress={80}/>
 
 <Skills
-skill="JavaScript(ES6)"
+skill="REST API"
+progress={90}/>
+
+<Skills
+skill="PostgreSQL"
+progress={90}/>
+
+<Skills
+skill="Docker"
 progress={80}/>
 
 <Skills
-skill="JavaScript(ES6)"
-progress={80}/>
+skill="Git & GitHub"
+progress={90}/>
 
-<Skills
-skill="JavaScript(ES6)"
-progress={80}/>
-
-<Skills
-skill="JavaScript(ES6)"
-progress={80}/>
 
 
 
