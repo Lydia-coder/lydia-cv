@@ -1,9 +1,9 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
-import LandingPage from './landingpage'
-import Aboutme from './aboutme'
-import Contact from './contact' 
-import Resume from './resume'
+import LandingPage from './Landingpage'
+import Aboutme from './Aboutme'
+import Contact from './Contact' 
+import Resume from './Resume'
 
 
 const Main = ()=> (

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl'
-import Main from './components/main';
+import Main from './components/Main';
 import {Link} from 'react-router-dom'
 
 
@@ -10,7 +10,7 @@ class App extends Component {
       <div>
         <div className="demo-big-content">
     <Layout>
-        <Header className='header-color' title="Title" scroll>
+        <Header className='header-color' title="My PortFolio" scroll>
             <Navigation>
             <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
@@ -19,7 +19,7 @@ class App extends Component {
                
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="My Portfolio">
             <Navigation>
             <Link to="/">Home</Link>
             <Link to="/resume">Resume</Link>
