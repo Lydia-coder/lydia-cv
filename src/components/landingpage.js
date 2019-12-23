@@ -17,11 +17,11 @@ class Landingpage extends Component {
 <p>HTML/CSS | BOOTSTRAP | JAVASCRIPT(ES6) | REACT | REDUX | NODE.JS | EXPRESS.JS  SEQUELIZE.JS | DOCKER | REST API | GIT/GITHUB</p>
 <div className="social-links">
     {/*linkedIn*/}
-<a href="http://google.com" rel="noopener noreferrer" target="_blank"> 
+<a href="https://www.linkedin.com/in/lydia-michael-smeets/" rel="noopener noreferrer" target="_blank"> 
 <i className="fa fa-linkedin-square"  aria-hidden="true"/>
 </a>
     {/*Github*/}
-    <a href="http://google.com" rel="noopener noreferrer" target="_blank"> 
+    <a href="https://github.com/Lydia-coder" rel="noopener noreferrer" target="_blank"> 
 <i className="fa fa-github-square"  aria-hidden="true"/>
 </a>
 
