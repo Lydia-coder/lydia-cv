@@ -10,7 +10,7 @@ class App extends Component {
       <div>
         <div className="demo-big-content">
     <Layout>
-        <Header title="Title" scroll>
+        <Header className='header-color' title="Title" scroll>
             <Navigation>
             <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
