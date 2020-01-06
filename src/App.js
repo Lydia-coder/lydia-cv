@@ -4,12 +4,16 @@ import Routes from './components/Routes';
 import {Link} from 'react-router-dom'
 
 
+
 class App extends Component {
   render() {
     return (
       <div>
+        
         <div className="demo-big-content">
+       
     <Layout>
+   
         <Header className='header-color' title="My PortFolio" scroll>
             <Navigation>
             <Link to="/">Home</Link>
@@ -30,7 +34,9 @@ class App extends Component {
         </Drawer>
         <Content>
             <div className="page-content" />
+            
              <Routes/> 
+             
         </Content>
     </Layout>
 </div>
