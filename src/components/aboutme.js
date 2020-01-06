@@ -14,7 +14,7 @@ class Aboutme extends Component {
                    
                 </Cell>
                 <p>  I recently graduated as a Full- stack Web Developer from Codaisseur Academy. I was selected from a large group of hope-full applicants to follow the bootcamp course. I have worked on projects individually and in a team setting. 
-                  I have applied technologies such as : React & Redux, Javascript and REST API to make full- stack apps.                    I am very motivated and excited to start working in a challenging environment where I can grow as a professional. 
+                  I have applied technologies such as : React & Redux, Javascript and REST API to make full- stack apps.I am very motivated and excited to start working in a challenging environment where I can grow as a professional. 
                   My back ground in teaching and sales have taught me great communicative skills, which makes me a great colleague to have!   
                   </p>
               </Grid>
