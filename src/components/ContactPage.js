@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List,ListItem,ListItemContent } from 'react-mdl';
-
+import ParticleComponent from "./ParticleComponent"
 
 class ContactPage extends Component {
     render() {
         return (
             <div className= "contact-body"> 
+            <ParticleComponent/>
             <Grid className= "contact-grid">
                 <Cell col={6}>
                     <h2>Lydia Michael Smeets</h2>
