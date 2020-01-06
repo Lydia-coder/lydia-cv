@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import{ Grid,Cell} from 'react-mdl'
-import Education from "./Education"
-import Experience from "./Experience"
-import Skills from "./Skills"
+import EducationPage from "./EducationPage"
+import ExperiencePage from "./ExperiencePage"
+import SkillsPage from "./SkillsPage"
 
-class Resume extends Component {
+class ResumePage extends Component {
     render() {
         return (
             <div>
@@ -34,14 +34,14 @@ class Resume extends Component {
                    </Cell>
                    <Cell className="resume-right-col" col={8}>
                        <h2>Education</h2>
-                       <Education 
+                       <EducationPage 
                        startYear={2019}
                        endYear={2019}
                        title="Full-Stack Web Developer Trainee"
                        schoolName="Codaisseur Academy"
                        schoolDescription="The technologies I aquired during my education at Codaisseur Academy were: JavaScript (ES6), React.js & Redux, React – Bootstrap, REST API, PostgreSQL, Express.js, Sequelize.js, Docker, HTML & CSS."/>
 
-                        <Education 
+                        <EducationPage 
                        startYear={2011}
                        endYear={2015}
                        title=" English Teacher Trainee"
@@ -55,7 +55,7 @@ class Resume extends Component {
                         <h2>Experience</h2>
                        
 
-                        <Experience
+                        <ExperiencePage
                          startYear={2019}
                          endYear={2019}
                          title="Full-Stack Web Developer Trainee"
@@ -64,7 +64,7 @@ class Resume extends Component {
                          
 
                          "/>
-                          <Experience
+                          <ExperiencePage
                         startYear={2016}
                         endYear={2019}
                         title="Brand Represenative"
@@ -78,30 +78,30 @@ class Resume extends Component {
 
 <hr style={{borderTop: '3px solid white'}}/>
   <h2>Skills</h2>
-<Skills
+< SkillsPage 
 skill="HTML/CSS                                    "
 progress={60}/>
 
-<Skills
+< SkillsPage 
 skill="React – Bootstrap"
 progress={60}/>
-<Skills
+< SkillsPage 
 skill="React & Redux"
 progress={80}/>
 
-<Skills
+< SkillsPage 
 skill="REST API"
 progress={90}/>
 
-<Skills
+< SkillsPage 
 skill="PostgreSQL"
 progress={90}/>
 
-<Skills
+< SkillsPage 
 skill="Docker"
 progress={80}/>
 
-<Skills
+< SkillsPage 
 skill="Git & GitHub"
 progress={90}/>
 
@@ -117,4 +117,4 @@ progress={90}/>
     }
 }
 
-export default Resume;
+export default ResumePage;

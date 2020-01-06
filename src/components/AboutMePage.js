@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Grid,Cell} from "react-mdl"
 
-class Aboutme extends Component {
+class AboutMePage extends Component {
     render() {
         return (
             <div className="about-body">
@@ -23,5 +23,5 @@ class Aboutme extends Component {
     }
 }
 
-export default Aboutme;
+export default AboutMePage;
 // 

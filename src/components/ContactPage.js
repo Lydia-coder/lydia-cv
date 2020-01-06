@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell, List,ListItem,ListItemContent } from 'react-mdl';
 
 
-class Contact extends Component {
+class ContactPage extends Component {
     render() {
         return (
             <div className= "contact-body"> 
@@ -43,4 +43,4 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default ContactPage;
