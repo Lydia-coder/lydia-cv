@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Layout,Header,Navigation,Drawer,Content} from 'react-mdl';
-import Main from './components/Main';
+import Routes from './components/Routes';
 import {Link} from 'react-router-dom'
 
 
@@ -30,7 +30,7 @@ class App extends Component {
         </Drawer>
         <Content>
             <div className="page-content" />
-             <Main /> 
+             <Routes/> 
         </Content>
     </Layout>
 </div>

@@ -6,7 +6,7 @@ import Contact from './Contact'
 import Resume from './Resume'
 
 
-const Main = ()=> (
+const Routes = ()=> (
     <Switch> 
         <Route exact path="/" component={LandingPage}></Route>
         <Route  path="/aboutme" component={Aboutme}></Route>
@@ -15,4 +15,4 @@ const Main = ()=> (
     </Switch>
 )
 
-export default Main
+export default Routes
