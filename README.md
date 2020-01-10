@@ -3,7 +3,7 @@
 
 #  Resume Page
 ## [ Check out the deployed version here! ]
-![Resume page](https://github.com/Lydia-coder/game-client/blob/master/src/NeverhaveIever.gif)
+![Resume page](https://github.com/Lydia-coder/lydia-cv/blob/master/src/CVDemo.gif)
 ## What this project is about
 
 This is a resume page where I tell a bit about mysel, it has a homepag, aboutme page, resume page and a contact page, please checkout: **[Goals for this project](#goals-for-this-project)**
