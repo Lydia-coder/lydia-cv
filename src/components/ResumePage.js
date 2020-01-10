@@ -90,12 +90,20 @@ skill="React & Redux"
 progress={80}/>
 
 < SkillsPage 
+skill="React-Native"
+progress={55}/>
+
+< SkillsPage 
 skill="REST API"
 progress={90}/>
 
 < SkillsPage 
 skill="PostgreSQL"
 progress={90}/>
+
+< SkillsPage 
+skill="GrapSQL"
+progress={60}/>
 
 < SkillsPage 
 skill="Docker"
