@@ -103,7 +103,11 @@ progress={90}/>
 
 < SkillsPage 
 skill="GrapSQL"
-progress={60}/>
+progress={50}/>
+
+< SkillsPage 
+skill="Typescript"
+progress={50}/>
 
 < SkillsPage 
 skill="Docker"
