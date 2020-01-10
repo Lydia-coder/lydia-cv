@@ -34,7 +34,7 @@ class HomePage extends Component {
               <div className="social-links">
                 {/*linkedIn*/}
                 <a
-                  href="http://google.com"
+                  href="https://www.linkedin.com/in/lydia-michael-smeets/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -42,7 +42,7 @@ class HomePage extends Component {
                 </a>
                 {/*Github*/}
                 <a
-                  href="http://google.com"
+                  href="https://github.com/Lydia-coder"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

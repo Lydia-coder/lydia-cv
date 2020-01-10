@@ -9,10 +9,10 @@ class AboutMePage extends Component {
               <Grid className="about-grid">
                   <ParticleComponent/>
               <Cell col={6}>
-                    <h2>Lydia Michael Smeets</h2>
+                    <h2 >Lydia Michael Smeets</h2>
                     <img src="https://scontent-ams4-1.xx.fbcdn.net/v/t1.0-9/27540167_10159867709430257_5567187484998451299_n.jpg?_nc_cat=107&_nc_ohc=sk0dLaqfLY8AQlsnmIgzjy3Kt9Fe2XGrOjZpQTxUYMGzONCaSvRbfiFJA&_nc_ht=scontent-ams4-1.xx&oh=5b2b9634dbefa588d570f0fa5a2c9434&oe=5EAA01BA"
                      alt="avatar"
-                     style={{height: '250px', borderRadius:'10px'}}/>
+                     style={{height: '250px', borderRadius:'50%'}}/>
                    
                 </Cell>
                 <p>  I recently graduated as a Full- stack Web Developer from Codaisseur Academy. I was selected from a large group of hope-full applicants to follow the bootcamp course. I have worked on projects individually and in a team setting. 
