@@ -3,7 +3,7 @@
 
 #  Resume Page
 ##  Check out the deployed version here! 
-![Deployed version](https://lydia-michael-smeets-cv.netlify.com/)
+-**[Deployed version](https://lydia-michael-smeets-cv.netlify.com/)**
 ## DEMO
 ![DEMO Resume page](https://github.com/Lydia-coder/lydia-cv/blob/master/src/CVDemo.gif)
 ## What this project is about
