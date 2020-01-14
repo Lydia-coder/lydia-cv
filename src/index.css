@@ -152,6 +152,10 @@ border-radius: 50%;
   font-weight: bold;
 }
 
+.projects-grid {
+  display: flex;
+}
+
 /* @media(max-width:400px){
   .landing-grid{
    max-width: 400px;
