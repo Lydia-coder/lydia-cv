@@ -4,6 +4,7 @@ import AboutMePage from './AboutMePage'
 import ContactPage from './ContactPage' 
 import ResumePage from './ResumePage'
 import HomePage from './HomePage'
+import Projects from "./Projects"
 
 
 const Routes = ()=> (
@@ -12,6 +13,7 @@ const Routes = ()=> (
         <Route  path="/aboutme" component={AboutMePage}></Route>
         <Route  path="/contact" component={ContactPage}></Route> 
         <Route  path="/resume" component={ResumePage}></Route>
+        <Route path="/projects" component={Projects} />
     </Switch>
 )
 
