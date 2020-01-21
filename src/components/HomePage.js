@@ -12,18 +12,19 @@ class HomePage extends Component {
       
     
         <Grid className="landing-grid">
+       <ParticleComponent />   
+       
         
-        <ParticleComponent />   
-        
-           <Cell col={12}>
+           <Cell col={8}>
+         
+          
           
             <img
               src="https://scontent-ams4-1.xx.fbcdn.net/v/t1.0-9/14359025_10157450179285257_8982111078051220177_n.jpg?_nc_cat=107&_nc_ohc=ksde0ZwMV7QAQn4z3j0fxXMFZN6bD1KNafXAmJw_T-vhh1tQt0YD1PS1w&_nc_ht=scontent-ams4-1.xx&oh=aa28fde45489d2d37c1ac0b71794ec4a&oe=5EA3E949"
               alt="avatar"
               className="avatar-img"
             />
- 
-          
+  
             <div className="banner-text">
               <h1> Full-Stack Web Developer</h1>
               <hr />

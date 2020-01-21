@@ -13,8 +13,10 @@ class App extends Component {
       <div>
         
         <div className="demo-big-content">
+          
        
     <Layout>
+    
    
         <Header className='header-color' title="My PortFolio" scroll>
             <Navigation>
@@ -40,7 +42,7 @@ class App extends Component {
             <div className="page-content" />
             
              <Routes/> 
-             
+           
         </Content>
     </Layout>
 </div>
