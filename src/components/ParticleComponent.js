@@ -4,7 +4,7 @@ import Particles from "react-particles-js";
 const particleOpt = {
   particles: {
     number: {
-      value: 150,
+      value: 80,
       density: {
         enable: true,
         value_area: 500
@@ -16,7 +16,7 @@ const particleOpt = {
 export default () => (
   <div
     style={{
-      position: "absolute",
+      position: "fixed",
       top: 0,
       left: 0,
       width: "100%",

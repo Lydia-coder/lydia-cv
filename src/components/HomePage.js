@@ -10,10 +10,10 @@ class HomePage extends Component {
       
       <div  >
       
-     
+    
         <Grid className="landing-grid">
         
-        <ParticleComponent />    
+        <ParticleComponent />   
         
            <Cell col={12}>
           
